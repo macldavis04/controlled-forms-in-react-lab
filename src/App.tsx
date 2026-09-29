@@ -1,7 +1,7 @@
-import React from 'react'
+import BookShelf from "./BookShelf";
 
-export default function App() {
-  return (
-    <div>App</div>
-  )
-}
+const App = () => {
+  return <BookShelf />;
+};
+
+export default App;
